@@ -9,11 +9,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          {this.props.isExt ? 
+          {/* {this.props.isExt ? 
             <img src={chrome.runtime.getURL("static/media/logo.svg")} className="App-logo" alt="logo" />
           :
             <img src={logo} className="App-logo" alt="logo" />
-          }
+          } */}
 
           <h1 className="App-title">Welcome to React</h1>
         </header>
